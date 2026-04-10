@@ -1,5 +1,7 @@
 # Projet Voxel
 
+Lien github : https://github.com/Mickael-DCR/Voxel
+
 ## Intentions gameplay
 L'intention de ce prototype est de proposer une boucle de gameplay représentative du projet final :
 - On entre dans un donjon
@@ -24,7 +26,9 @@ L'intention de ce prototype est de proposer une boucle de gameplay représentati
 | Equip hovered item  | Right click         |
 | Claim quest         | Left click          |
 | Delete hovered item | X                   |
+| Restart dungeon     | R                   |
 
 ## Bugs connus
 L'interface ne se focus pas quand on ouvre les panneaux de quête et d'inventaire, il faut cliquer une fois pour naviguer sans faire bouger la caméra.
 Quand on ferme un des panneaux, le curseur disparaît même si l'autre panneau reste ouvert.
+Il y a un petit rebord invisible devant le spawn qu'il faut contourner.
